@@ -1,0 +1,56 @@
+.mission-container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 80vh;
+    padding: 0px 95px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    /* gap: 40px; */
+}
+
+.serv {
+    margin-bottom: 40px;
+}
+
+.mission-container h1 {
+    font-size: 60px;
+    color: #001f3b;
+    /* Adjust font size as needed */
+
+}
+
+.mission-container p {
+    margin-top: -30px;
+    text-align: justify;
+    /* margin-right:180px; */
+    font-size: 15px;
+    /* Adjust font size as needed */
+}
+
+.animate-letters {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    display: inline-block;
+}
+
+.animate-up {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.5s;
+    /* Delay to start after header animation */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

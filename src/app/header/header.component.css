@@ -1,0 +1,59 @@
+/* Style the header and container */
+header {
+  /* background-color: aliceblue; */
+  z-index: 1;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 0px;
+  margin-top: 0px;
+  margin-bottom: -7em;
+  /* margin-right: 10px; */
+}
+
+.header-logo {
+  width: 100px;
+  margin-right: 350px;
+  margin-left: 10px;
+  /* float: left; */
+}
+
+.header-tabs-container {
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.header-tabs {
+  list-style-type: none;
+  display: flex;
+}
+
+.header-tabs li {
+  margin-right: 35px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.header-tabs li:last-child {
+  margin-right: 0;
+}
+
+.header-tabs a {
+  text-decoration: none;
+  /* Remove underline from links */
+  color: #03365e;
+  font-size: 17px;
+  padding: 8px;
+  /* Text color for the tabs */
+  /* font-weight: bold; */
+  /* Bold text for better visibility */
+  display: inline-block;
+  /* Important for applying transform */
+}
+
+.header-tabs a:hover {
+  transform: scale(1.05);
+  /* Apply zoom effect on hover */
+  color: #e61731;
+  /* font-size: 16px; */
+  /* Underline links on hover */
+}
+

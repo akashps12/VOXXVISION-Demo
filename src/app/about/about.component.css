@@ -1,0 +1,119 @@
+.about-bg-container {
+    background-image: url('/assets/bg/bg4.jpg');
+    background-size: 920px 330px;
+    background-position: center 150px; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat;
+    height: 60vh;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    display: flex; /* Use flex display */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    position: relative;
+    z-index: -1;
+  }
+
+  .wher-container {
+    background-image: url('/assets/bg/bg5.jpg');
+    background-size: 320px 200px;
+    background-position: 20px 10px;
+    background-repeat: no-repeat;
+    /* margin-top: -80px; */
+    margin-left: -10px;
+    height: 30vh;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    position: relative;
+    /* margin: 0; */
+    padding: 0;
+    /* z-index: -1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+  }
+  .wher{
+    position: absolute;
+    top: 670px;
+    left: 470px;
+    display: flex;
+    flex-direction: column;
+}
+.wher p{
+    margin-top: -35px;
+    margin-right: 135px;
+    /* z-index: 1; */
+}
+.wher-box{
+ margin-top: 45px;
+background-color: #eaeef3;
+/* z-index: 1; */
+width: 100%;
+/* height: 70%; */
+}
+
+.abouts-container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 220vh; */
+    padding: 20px 95px;
+    /* margin-top: 120px; */
+    text-align: justify;
+}
+
+.abouts-container h3{
+    font-size: 40px;
+color: #001f3b;
+}
+
+.abouts-container p{
+    /* margin-top: -30px; */
+    font-size: 15px;
+    color: rgb(52, 62, 68);
+}
+
+
+.ldrs{
+    margin-top: 5px;
+}
+.ldrs p{
+    margin-top: -35px;
+}
+.faculties{
+    margin-top: -15px;
+}
+
+
+.grps {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.list-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group-item {
+    margin: 10px 0;
+}
+
+.box {
+    background-color: #f0f0f0; /* Default background color */
+    padding: 10px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #0d3664; /* Change the background color on hover */
+    color: #ffffff;
+}
